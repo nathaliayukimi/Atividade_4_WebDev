@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 4</title>
+    <style>
+        .body{
+        background-image:url("https://img.freepik.com/premium-vector/vector-cute-seamless-pattern-with-chamomile-flowers-pastel-pink-background_570015-123.jpg?w=360"); 
+        }
+
+        .bodydark{
+            background-image:url("https://e1.pxfuel.com/desktop-wallpaper/217/226/desktop-wallpaper-laptop-aesthetic-in-2020-aesthetic-edgy-computer.jpg");
+;
+        }
+
+        img {
+        padding-left: 50vh;
+        }
+
+        .h1{
+        font-family: verdana;
+        color: #4549E5;
+        }
+
+        .h1dark{
+            font-family: verdana;
+            color: #B9D1FF;
+        }
+
+        .button{
+        background-image:url("https://img.freepik.com/vetores-gratis/fundo-de-primavera-com-flores-coloridas_52683-21129.jpg?w=2000");
+        height: 10vh;
+        width: 10vw;
+        border: solid red 2px;
+        border-radius: 20px;
+        color: #1E500F;
+        font-family: verdana;
+        transition: 0.4s;
+        }
+
+        .buttondark {
+            background-image:url("https://c4.wallpaperflare.com/wallpaper/292/93/307/flowers-night-nature-hd-wallpaper-preview.jpg");
+            height: 10vh;
+            width: 10vw;
+            border: solid #BCCEF8 2px;
+            border-radius: 20px;
+            color: #D4C5F9;
+            font-family: verdana;
+            transition: all 0.4s;
+        }
+
+        .button:hover {
+        background-image:url("https://jrmcoaching.com.br/wp-content/uploads/2016/01/dinamica-das-Flores.jpg");
+        color: blue;
+        }
+
+        .buttondark:hover {
+            background-image:url("https://www.colorwallpapers.com/uploads/wallpaper/anime-sunset-wallpapers/width-853/BMZZq2GF1itF-download-anime-sunset-wallpapers-for-ipad-pro.jpg");
+            background-size: 25vw 25vh;
+            color: #B7E2FE;
+        border: solid #AEFFDE 2px;
+        }
+
+        .h2 {
+        padding-left: 55vh;
+        }
+
+        .h2dark {
+            color: #CBB7FE;
+        }
+
+        .p {
+            color: black;
+        }
+
+        .pdarkmode {
+            color: #FFFFFF;
+        }
+
+        .ol {
+            color: black;
+        }
+
+        .oldark {
+            color: white;
+        }
+
+        .ul{
+            color: black;
+        }
+
+        .uldark {
+            color: white;
+        }
+
+    </style>
+</head>
+    <body>
+        <div id="principal">
+          <h1>Uma Página</h1>
+          <br/>
+          <button onclick="darkmode()">Darkmode</button>
+          <p class="para">Seja bem vindo a esta página. Acomode-se e aproveite! :)</p>
+          <img height="300px" id="gatinho" src="https://i.pinimg.com/originals/87/0c/8e/870c8e9bca148e70ae863f7f4a781c50.jpg"/>
+          <p></p>
+        <a href="#Quemsoueu"><button>Quem Sou Eu?</button></a>
+        <a href="#Oqueeuaprendi"><button>O que eu aprendi</button></a>
+          </div>
+        <div>
+          <h2 id="Quemsoueu">Quem sou eu?</h2>
+          <img height="300px" src="https://dpemoji.com/wp-content/uploads/2023/01/Girlish-Cartoon-Dp-59.png"/>
+            <p class="para">Me chamo Nathália Yukimi, tenho 18 anos. Amo:</p>
+          <ul>
+            <li>Desenhar;</li>
+            <li>Ficar com a família;</li>
+            <li>Tomar sorvete;</li>
+            <li>Ler;</li>
+            <li>Ouvir músicas nacionais, como Legião Urbana, Pitty, Cazuza e Roupa Nova</li>
+          </ul>
+          <h2 id="Oqueeuaprendi">O que eu Aprendi?</h2>
+          <img height="200vh" src="https://gifs.eco.br/wp-content/uploads/2022/02/gifs-do-gatinho-digitando-42.gif"/>
+          <h3>Aula 1</h3>
+          <p></p>
+          <p class="para">A primeira aula do WebDev me permitiu entender as diferenças entre a Internet e a Web, em que esta depende da outra para sua disseminação e acesso por todos.
+      Além disso, em sua essência, a aula permitiu um primeiro contato com o trabalho em html (que, aliás, não é uma linguagem de programação, de fato), explicando sua estrutura básica, além de algumas tags essenciais.</p>
+          <ol>
+              <li> Tipos de headers </li>
+              <li> Fontes de letras (itálico e negrito) </li>
+              <li> Inserção de Imagens e modificação de largura e comprimento </li>
+              <li> Inserção de botões </li>
+              <li> Divisões </li>
+              <li> Parágrafos </li>
+              <li> Acesso à links e elementos identificados da página </li>
+          </ol>
+          <h3>Aula 2</h3>
+          <p class="para">A segunda aula do WebDev introduziu conceitos importantes do CSS, que interage com o arquivo em CSS, modificando suas estruturas. Destacam-se nessa linguagem de folhas de estilo os seletores, os atributos e os valores respectivos</p>
+          <p class="para">Aprendemos sobre o código Hex das cores, para aplicar em atributos como background ou cor, da manipulação da altura e largura do item (em termos relativos ou absolutos), das transições além da box model.</p>
+      </div>
+      </body>
+      <script src="darkmode.js"></script>
+</html>
